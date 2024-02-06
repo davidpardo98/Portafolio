@@ -1,0 +1,70 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos del botón de cambio de estilo (modo oscuro) */
+body.modoNocturno {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Estilos del botón de cambio de idioma */
+#botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos del botón */
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
